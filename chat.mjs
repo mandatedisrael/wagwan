@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { chat } from '0g-kit';
+import { chat, withdraw } from '0g-kit';
 
 async function main() {
 	const message = process.argv.slice(2).join(' ') || 'Say wagwan!';
