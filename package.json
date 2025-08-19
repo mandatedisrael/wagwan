@@ -1,0 +1,29 @@
+{
+  "name": "wagwan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chat": "node chat.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "0g-kit": "^1.0.5",
+    "dotenv": "^16.4.5",
+    "next": "^14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10"
+  }
+}
